@@ -1,3 +1,5 @@
+# from https://github.com/github/gitignore/blob/main/Python.gitignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -15,6 +17,10 @@ downloads/
 eggs/
 .eggs/
 lib/
+<<<<<<< HEAD
+=======
+!/wtest/tester/scripts/files/mem/shark/lib
+>>>>>>> bcef23f... Add: 简单构建与测试
 lib64/
 parts/
 sdist/
@@ -121,6 +127,7 @@ celerybeat.pid
 
 # Environments
 .env
+vigilant/.env
 .venv
 env/
 venv/
@@ -152,9 +159,6 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+### other
+.idea
+.DS_Store
